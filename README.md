@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Weather App allows users to get real-time weather information, latest news, and images of a city. The application is built using Node.js, Express, and integrates with OpenWeatherMap API, News API, and Unsplash API.
+Weather App is a web application built using Node.js and Express that provides real-time weather information, latest news, and images for a given city. The app integrates with OpenWeatherMap API, News API, and Unsplash API.
 
 ## Features
 
@@ -13,15 +13,13 @@ This Weather App allows users to get real-time weather information, latest news,
 
 ## Setup
 
-Follow these steps to set up and run the Weather App:
-
 ### Prerequisites
 
 - Node.js installed on your machine.
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/9ani/weatherAPI-app.git
