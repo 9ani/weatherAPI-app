@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left-content">
+      <h1>Weather Information</h1>
+      <form id="weatherForm">
+        <input type="text" name="city" placeholder="Enter city name" required>
+        <button type="submit">Get Weather</button>
+      </form>
+      <div id="weatherInfo"></div>
+      <div id="newsInfo"></div>
+    </div>
+    <div class="right-content">
+      <div id="photoInfo"></div>
+    </div>
+   
+  </div>
+  <div id="map"></div>
+  <script src="/js/main.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <footer>
+      <p>Created by Gani Uapov - Group SE-2206</p>
+    </footer>
+</body>
+</html>
